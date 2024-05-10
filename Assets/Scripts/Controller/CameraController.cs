@@ -4,7 +4,7 @@ public class CameraController : MonoBehaviour
 {
     public Transform target; // 카메라가 따라다닐 대상 (캐릭터)
 
-    void LateUpdate()
+    public void Update()
     {
         if (target != null)
         {
